@@ -63,7 +63,7 @@ namespace LivePuzzle
             {
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
-                // parameter
+                // parameter.
                 if (!rootFrame.Navigate(typeof(MainPage), args.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
